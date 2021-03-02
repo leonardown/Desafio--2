@@ -1,0 +1,33 @@
+.contact .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.contact input, .contact textarea {
+  border: 1px solid rgb(15, 15, 15);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact input {
+  height: 40px;
+}
+
+.contact textarea {
+  height: 200px;
+}
+
+.contact label {
+  margin-bottom: 10px;
+}
+
+.contact {
+  padding: 0 20px;
+}
+
+.contact p {
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.product {
+  cursor: pointer;
+  max-width: 240px;
+  margin-bottom: 50px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.product img {
+  height: auto;
+  max-width: 225px;
+}
+
+.product p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.product picture {
+  display: flex;
+  height: 160px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

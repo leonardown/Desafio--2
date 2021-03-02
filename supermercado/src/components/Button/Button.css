@@ -1,0 +1,19 @@
+.button {
+  background-color: #dc1934;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #a71327;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
